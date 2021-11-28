@@ -1,6 +1,6 @@
 import sys
 
-password = input("Please enter secret password: ")
+password = input("Please enter the password: ")
 attempt_count = 1
 while password != "opensea":
     if attempt_count > 3:
